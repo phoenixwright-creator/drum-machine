@@ -1,5 +1,6 @@
 body {
     background-color: rosybrown;
+    font-family: 'Roboto', sans-serif;
 }
 
 #drum-machine {
@@ -23,10 +24,16 @@ body {
 }
 
 .drum-pad {
-    background-color: red;
+    background-color: rgb(199, 55, 55);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     border-radius: 5px;
+    font-size: 20px;
+}
+
+audio {
+    width: 100%;
 }
