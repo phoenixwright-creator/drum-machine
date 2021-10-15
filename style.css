@@ -1,0 +1,32 @@
+body {
+    background-color: rosybrown;
+}
+
+#drum-machine {
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+#main-title {
+    text-align: center;
+}
+
+#display {
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 100px);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.drum-pad {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
