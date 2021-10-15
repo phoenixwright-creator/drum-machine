@@ -34,6 +34,10 @@ body {
     font-size: 20px;
 }
 
+.drum-pad:hover {
+    background-color: rgb(131, 15, 15);
+}
+
 audio {
     width: 100%;
 }
