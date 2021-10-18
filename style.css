@@ -17,10 +17,20 @@ body {
 
 #display {
     display: grid;
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(4, 100px);
     grid-template-columns: repeat(3, 100px);
     row-gap: 5px;
     column-gap: 5px;
+}
+
+#sound-description {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-self: center;
+    padding: 10px;
+    text-align: center;
 }
 
 .drum-pad {
